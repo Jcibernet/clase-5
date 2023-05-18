@@ -28,7 +28,7 @@ def crear_tabla():
         print(f"Ocurrió un error al crear la tabla: {e}")
     cursor.close()
 
-#crear_tabla()
+crear_tabla()
 
 def eliminar_tabla():
     cursor = connection.cursor()
